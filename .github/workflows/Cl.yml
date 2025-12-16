@@ -84,7 +84,7 @@ jobs:
 
           tags: ghcr.io/victoriadecabo/tos:latest
 
-deploy:
+  deploy:
 
     needs: verify-and-package
 
